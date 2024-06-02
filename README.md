@@ -5,7 +5,7 @@
 <!-- Project Descripton -->
 
 <p align="justify">
-	A Collection of IM2 WebApp Projects for Information Management 2 Class
+	A Collection of Django WebApp Projects for Information Management 2 Class
 </p>
 
 <br>
