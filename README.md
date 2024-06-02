@@ -35,7 +35,7 @@
    - Post List
    - Post Details
 6. Order Management System
-   - Orders List
+   - Order List
    - Customer Orders List
    - Product Orders List
    - View Order
