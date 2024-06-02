@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-size: 28px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            background-color: #f1f1f1;
+            padding: 1px;
+            text-align: center;
+        }
+
+        #navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        #navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        #navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        #navbar a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .content {
+            padding: 16px;
+        }
+
+        .sticky + .content {
+            padding-top: 60px;
+        }
+    </style>
+    <title>My Web App</title>
+</head>
+<body>
+
+<div class="header">
+    <h2>My Web App</h2>
+</div>
+
+<div id="navbar">
+    <a href="{% url 'home' %}">Home</a>
+    <a class="active" href="javascript:void(0)">Posts</a>
+    <a href="javascript:void(0)">About</a>
+    <a href="javascript:void(0)">Contact</a>
+</div>
+
+<div class="content">
+    <p style="text-align: center; font-size: 50px">Latest Posts</p>
+    <hr>
+
+<table style="width: 100%; border-collapse: collapse;">
+    {% for post in posts %}
+    <tr>
+        <td style="padding-right: 10px;">
+            <a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a>
+        </td>
+        <td style="text-align: right;">
+            <p>{{ post.date_posted }}</p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <hr>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+</div>
+
+</body>
+</html>
