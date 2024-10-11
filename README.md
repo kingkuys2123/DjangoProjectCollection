@@ -22,30 +22,30 @@
 
 ## Projects
 
-1. Book Shop
+1. [Book Shop](https://github.com/kingkuys2123/DjangoProjectCollection/tree/main/BookShop)
    - Browse Books
-3. Gift Registry
+3. [Gift Registry](https://github.com/kingkuys2123/DjangoProjectCollection/tree/main/GiftRegistry)
    - Gift List
    - Gift Details
-4. Inventory System
+4. [Inventory System](https://github.com/kingkuys2123/DjangoProjectCollection/tree/main/InventorySystem)
    - Supplier List
    - Product List
    - Add Product
-5. My Web App
+5. [My Web App](https://github.com/kingkuys2123/DjangoProjectCollection/tree/main/MyWebApp)
    - Post List
    - Post Details
-6. Order Management System
+6. [Order Management System](https://github.com/kingkuys2123/DjangoProjectCollection/tree/main/OrderManagementSystem)
    - Order List
    - Customer Orders List
    - Product Orders List
    - View Order
    - Add Order
    - Edit Order
-7. Travel Agency App
+7. [Travel Agency App](https://github.com/kingkuys2123/DjangoProjectCollection/tree/main/TravelAgencyApp)
    - Packages List
    - View Package
    - Add Package Review
-9. Warehousing System
+9. [Warehousing System](https://github.com/kingkuys2123/DjangoProjectCollection/tree/main/WarehousingSystem)
    - Item List
    - View Item
    - Add Item
